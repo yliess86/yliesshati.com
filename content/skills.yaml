@@ -1,0 +1,78 @@
+- domain: Programming
+  items:
+    - Python
+    - C/C++
+    - C# (.NET)
+    - JavaScript
+    - TypeScript
+    - Java
+  desc: >
+    I started programming in middle school as a hobby and have not stopped since.
+    The language is not the barrier, I can adapt and learn.
+    I am familiar with the inner working of computers, operating systems, compilers, interpreters, and such.
+- domain: Deep Learning
+  items:
+    - PyTorch
+    - TensorFlow
+    - Keras
+    - TensorFlowJS
+    - TensorFlow Lite
+    - TensorFlow for MicroControllers
+    - ONNX
+    - Cuda
+  desc: >
+    Since 2015, I have been learning and playing with Neural Nets.
+    I am excited by the high pace and the open-source mentality of the Deep Learning community.
+    To me, Deep Learning is a powerful tool to have and master.
+    This technology has shown remarkable promises in many fields and has yet to show its full potential.
+- domain: Computer Graphics
+  items:
+    - OpenGL
+    - WebGL
+    - Unity
+  desc: >
+    I love Video Games, VFX, and digital art.
+    Computer Graphics is also responsible for the GPUs I love and use in my daily work.
+    For these reasons I have invested quite some time in this topic.
+    I used to program Game/Rendering Engines as a hobby.
+- domain: Web Development
+  items:
+    - HTML 5
+    - CSS
+    - VueJS
+    - ReactJS
+    - NextJS
+    - Tailwind CSS
+  desc: >
+    I have started my programming journey by building websites for fun.
+    I am familiar with modern web developement frameworks.
+    Web is an easy to deploy plateform for building and sharing experiences.
+    As such I often revert to building Web Apps for showing my work to others.
+- domain: DevOps
+  items:
+    - Linux
+    - Docker
+    - Kubernetes
+    - Git
+    - CI/CD
+  desc: >
+    I use Linux and Git as my daily driver.
+    I have some experence with Docker and Kuernetes although not as proefficient with the latter.
+    This website is hosted on Github Pages and is built using CI/CD.
+- domain: Digital Media Art
+  items:
+    - Adobe Suite (PS, AI, AE)
+    - PaintToolSai
+    - Procreate
+    - Blender
+  desc: >
+    I grew upt loving drawing and digital art.
+    I am proefficient with both 2D and 3D art techniques.
+- domain: Languages
+  items:
+    - French (Native)
+    - English (Professional)
+    - Spanish (Elementary)
+  desc: >
+    French is my native language.
+    I use English at work and in my daily media consumption. 

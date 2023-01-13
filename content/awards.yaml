@@ -1,0 +1,13 @@
+- name: PI2 Project
+  orga: Ecole d'Ingenieur Leonard De Vinci (ESILV)
+  rank: Second
+  desc: >
+    ADMA: Audio‑Driven Mouth Animations.
+    Poster presentation and Demo stand.
+- name: PING Project
+  orga: Ecole d'Ingenieur Leonard De Vinci (ESILV)
+  rank: First
+  desc: >
+    Project of the Year.
+    Sun Wu Kong: Audio Queries for Video Game Interactions
+    Poster presentation and Demo stand.
