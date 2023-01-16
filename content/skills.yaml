@@ -43,6 +43,8 @@
     - ReactJS
     - NextJS
     - Tailwind CSS
+    - FastAPI
+    - JWT
   desc: >
     I have started my programming journey by building websites for fun.
     I am familiar with modern web developement frameworks.
@@ -54,7 +56,7 @@
     - Docker
     - Kubernetes
     - Git
-    - CI/CD
+    - Github Actions (CI/CD)
   desc: >
     I use Linux and Git as my daily driver.
     I have some experence with Docker and Kuernetes although not as proefficient with the latter.
