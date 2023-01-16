@@ -29,7 +29,7 @@ export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center p-4">
-        <div className="flex flex-col gap-8 md:gap-16 max-w-7xl">
+        <div className="flex flex-col gap-8 md:gap-16 md:max-w-3xl xl:max-w-4xl">
           <Nav />
           <main className="flex flex-col gap-8 md:gap-16">
             <Hero />

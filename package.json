@@ -7,7 +7,7 @@
     "lint": "next lint",
     "start": "next start",
     "build": "next build",
-    "export": "rm -rf docs/* && next export -o docs && touch docs/.nojekyll"
+    "export": "next export -o docs && touch docs/.nojekyll"
   },
   "dependencies": {
     "@next/font": "13.1.1",
