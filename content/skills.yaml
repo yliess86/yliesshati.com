@@ -35,7 +35,7 @@
     Computer Graphics is also responsible for the GPUs I love and use in my daily work.
     For these reasons I have invested quite some time in this topic.
     I used to program Game/Rendering Engines as a hobby.
-- domain: Web Development
+- domain: Full Stack Development
   items:
     - HTML 5
     - CSS
@@ -45,11 +45,13 @@
     - Tailwind CSS
     - FastAPI
     - JWT
+    - MongoDB
+    - SQL
   desc: >
     I have started my programming journey by building websites for fun.
     I am familiar with modern web developement frameworks.
     Web is an easy to deploy plateform for building and sharing experiences.
-    As such I often revert to building Web Apps for showing my work to others.
+    I have some experience in designing full stack applications.
 - domain: DevOps
   items:
     - Linux
