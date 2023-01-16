@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ExternalLink from "../elements/ExternalLink"
+
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
 
 export default function Hero() {
@@ -14,7 +16,7 @@ export default function Hero() {
           <p className="md:w-96">I like to create interactive experiences powered by deep neural nets!</p>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 bottom-0">
-          <div className="flex flex-row gap-4 text-4xl"><FaGithub /><FaTwitter /><FaLinkedin /></div>
+          <div className="flex flex-row gap-4 text-4xl"><ExternalLink href="https://github.com/yliess86"><FaGithub /></ExternalLink><ExternalLink href="https://twitter.com/HatiYliess"><FaTwitter /></ExternalLink><ExternalLink href="https://www.linkedin.com/in/yliess-hati/"><FaLinkedin /></ExternalLink></div>
           <button className="px-4 py-2 bg-black text-white rounded-sm">Available to Hire</button>
         </div>
       </div>
