@@ -28,20 +28,20 @@ export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="font-poppins p-4 scroll-smooth">
-        <div className="mx-auto flex flex-col gap-8 md:gap-16 max-w-7xl">
+      <div className="flex justify-center p-4">
+        <div className="flex flex-col gap-8 md:gap-16 max-w-7xl">
           <Nav />
-          <div className="flex flex-col gap-8 md:gap-16">
+          <main className="flex flex-col gap-8 md:gap-16">
             <Hero />
             <Experiences experiences={props.experiences} />
             <Skills skills={props.skills} />
             <Teachings teachings={props.teachings} />
             <Awards awards={props.awards} />
             <Educations educations={props.educations} />
-          </div>
+          </main>
           <Footer />
         </div>
-      </main>
+      </div>
     </>
   );
 }
