@@ -11,6 +11,7 @@ export default function Nav() {
         <Link href="/#experience" scroll={false}>Experience</Link>
         <Link href="/#skills" scroll={false}>Skills</Link>
         <Link href="/#teaching" scroll={false}>Teaching</Link>
+        <Link href="/#publications" scroll={false}>Publications</Link>
         <Link href="/#awards" scroll={false}>Awards</Link>
         <Link href="/#education" scroll={false}>Education</Link>
       </div>

@@ -7,6 +7,9 @@ import { getEducations, IEducation } from "../components/data/EducationData";
 import Awards from "../components/sections/Award";
 import { getAwards, IAward } from "../components/data/AwardData";
 
+import Publications from "../components/sections/Publication";
+import { getPublications, IPublication } from "../components/data/PublicationData";
+
 import Teachings from "../components/sections/Teaching";
 import { getTeachings, ITeaching } from "../components/data/TeachingData";
 
@@ -36,6 +39,7 @@ export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
             <Experiences experiences={props.experiences} />
             <Skills skills={props.skills} />
             <Teachings teachings={props.teachings} />
+            <Publications publications={props.publications} />
             <Awards awards={props.awards} />
             <Educations educations={props.educations} />
           </main>
@@ -46,6 +50,20 @@ export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
   );
 }
 
-export const getStaticProps: GetStaticProps<{ experiences: IExperience[], skills:ISkill[], teachings: ITeaching[], awards: IAward[], educations: IEducation[] }> = async () => {
-  return { props: { experiences: getExperiences(), skills: getSkills(), teachings: getTeachings(), awards: getAwards(), educations: getEducations() } };
+export const getStaticProps: GetStaticProps<{
+  experiences: IExperience[],
+  skills:ISkill[],
+  teachings: ITeaching[],
+  publications: IPublication[],
+  awards: IAward[],
+  educations: IEducation[]
+}> = async () => {
+  return { props: {
+    experiences: getExperiences(),
+    skills: getSkills(),
+    teachings: getTeachings(),
+    publications: getPublications(),
+    awards: getAwards(),
+    educations: getEducations()
+  } };
 };
