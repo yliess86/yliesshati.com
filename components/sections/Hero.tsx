@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="flex flex-col justify-between flex-1 gap-4">
         <div className="flex flex-col gap-2">
           <h1 className="font-black text-4xl">Yliess Hati</h1>
-          <h4 className="font-bold uppercase">General Engineer, Ph.D. Student</h4>
+          <h4 className="font-bold uppercase">Generalist Engineer, Ph.D. Student in Deep Learning, Electronics Enthousiast</h4>
           <div className="flex flex-row gap-2 justify-center md:justify-start font-bold text-sm">
             <div className="flex items-center"><FaCalendarCheck className="inline mr-1"/>04/12/1996</div>
             <div className="flex items-center"><FaMapMarker className="inline mr-1"/>France</div>

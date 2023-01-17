@@ -72,6 +72,16 @@
   desc: >
     I grew up loving drawing and digital art.
     I am proficient with both 2D and 3D art techniques.
+- domain: Electronics
+  items:
+    - KiCad
+    - Arduino
+    - STM32
+    - TinyML
+  desc: >
+    Being a Generalist Engineer, I have knowledge in electronics First Principles.
+    I have recently started playing with building, training, and integrating Tiny Machine Learning applications into Micro Controllers.
+    Hope to do more on this topic
 - domain: Languages
   items:
     - French (Native)
