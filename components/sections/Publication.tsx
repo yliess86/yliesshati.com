@@ -8,7 +8,7 @@ import ExternalLink from "../elements/ExternalLink";
 export default function Awards ({ publications }: { publications: IPublication[] }) {
   const elements = publications.map((publication, index) =>
     <Card key={index} className="flex flex-col gap-2">
-      <div className="overflow-hidden rounded-sm w-full h-64 md:h-96">
+      <div className="border border-black overflow-hidden rounded-sm w-full h-64 md:h-96">
         <Image className="object-cover w-full h-full" alt={`cover ${publication.title}`} src={publication.cover} width={256} height={256} />
       </div>
       <h3 className="font-bold text-xl">{publication.title}</h3>
