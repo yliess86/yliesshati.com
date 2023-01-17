@@ -4,7 +4,7 @@
   start: Sept 2019
   end: Now
   desc:
-    - Teaching modern Artificial Intelligence (AI), Deep Learning (DL), and Computer Grapgics (CG).
+    - Teaching modern Artificial Intelligence (AI), Deep Learning (DL), and Computer Graphics (CG).
     - Coaching Creative Technologist Students at the DVIC. 
 - compagny: De Vinci Innovation Center (DVIC)
   loc: Paris La Défense, France
@@ -13,14 +13,14 @@
   end: Aug 2019
   desc:
     - Implemented, wrote, and submitted my first publication on a User-Guided Anime Linear Colorization Tool to the Conference on Visual Media Production (CVMP).
-    - Helped design and preapre the DVIC first official curriculum and infrastructure deployement.
-- compagny: MIT Medial Lab - Responsive Environements Group
+    - Helped design and prepare the DVIC first official curriculum and infrastructure deployment.
+- compagny: MIT Medial Lab - Responsive Environments Group
   loc: Boston, MA, USA
   pos: Visiting Student
   start: Feb 2019
   end: Apr 2019
   desc:
-    - Implemented a web app for a crowd sourced panda pose video labelization.
+    - Implemented a web app for a crowdsourced panda pose video labelization.
     - Implemented and trained a pandas pose estimator for state classification in collaboration with the San Diego Zoo.
     - Conducted a user-study, wrote, and submitted my first publication on an Audio-Driven 3D Mouth Animation Interface for Personal Assistants for the International Conference on Auditory Display (ICAD).
 - compagny: Adaltas
@@ -29,6 +29,6 @@
   start: Apr 2018
   end: Aug 2018
   desc:
-    - Implemented a State of the Art Text Summarization Pipeline based on Pointer Generator with Attention we named Lando.
+    - Implemented a State-of-the-Art Text Summarization Pipeline based on Pointer Generator with Attention we named Lando.
     - Implemented a Full Stack pipeline to deploy the Summarization model on a Web Application using Continuous Integration and Deployment using GitLab, Docker, and Kubernetes.
     - Wrote conference reports and articles on the company website.

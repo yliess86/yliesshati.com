@@ -4,21 +4,21 @@
   pos: Teacher
   start: Sept 2021
   end: Dec 2022
-  desc: Teaching the bascis of Computer Graphics and Video Game Programming to Creative Technologist Students.
+  desc: Teaching the basics of Computer Graphics and Video Game Programming to Creative Technologist Students.
 - course: Artifical Intelligence (AI)
   school: De Vinci Innovation Center (DVIC)
   loc: Paris La Défense, France
   pos: Teacher
   start: Sept 2020
   end: Dec 2022
-  desc: Teaching Deep Learnign from First Principles to SOTA Applications to Creative Technologist Students.
-- course: Artifical Intelligence (AI) for the Internet of Things (IOT)
+  desc: Teaching Deep Learning from First Principles to SOTA Applications to Creative Technologist Students.
+- course: Artificial Intelligence (AI) for the Internet of Things (IOT)
   school: Ecole d'Ingenieur Leonard De Vinci (ESILV)
   loc: Paris La Défense, France
   pos: Teacher
   start: Jan 2019
   end: Apr 2019
-  desc: Teaching the basics of Deep Learning and how to Deploy models for Embedded Devices and IOT Applications.
+  desc: Teaching the basics of Deep Learning and how to deploy models for Embedded Devices and IOT Applications.
 - course: Machine Learning (ML) in R
   school: Ecole d'Ingenieur Leonard De Vinci (ESILV)
   loc: Paris La Défense, France
@@ -32,7 +32,7 @@
   pos: Teacher Assistant
   start: Sept 2019
   end: Dec 2019
-  desc: Teaching Object Oriented Programming (OOP) and Design Pattern in in C# (.NET) to Engineering Students.
+  desc: Teaching Object-Oriented Programming (OOP) and Design Pattern in C# (.NET) to Engineering Students.
 - course: Master Class on Artificial Intelligence
   school: Ecole d'Ingenieur Leonard De Vinci (ESILV)
   loc: Paris La Défense, France

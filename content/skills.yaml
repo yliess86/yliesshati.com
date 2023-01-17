@@ -33,7 +33,7 @@
   desc: >
     I love Video Games, VFX, and digital art.
     Computer Graphics is also responsible for the GPUs I love and use in my daily work.
-    For these reasons I have invested quite some time in this topic.
+    For these reasons, I have invested quite some time in this topic.
     I used to program Game/Rendering Engines as a hobby.
 - domain: Full Stack Development
   items:
@@ -49,8 +49,8 @@
     - SQL
   desc: >
     I have started my programming journey by building websites for fun.
-    I am familiar with modern web developement frameworks.
-    Web is an easy to deploy plateform for building and sharing experiences.
+    I am familiar with modern web development frameworks.
+    Web is an easy to deploy platform for building and sharing experiences.
     I have some experience in designing full stack applications.
 - domain: DevOps
   items:
@@ -61,7 +61,7 @@
     - Github Actions (CI/CD)
   desc: >
     I use Linux and Git as my daily driver.
-    I have some experence with Docker and Kuernetes although not as proefficient with the latter.
+    I have some experience with Docker and Kuernetes although not as proficient with the latter.
     This website is hosted on Github Pages and is built using CI/CD.
 - domain: Digital Media Art
   items:
@@ -70,8 +70,8 @@
     - Procreate
     - Blender
   desc: >
-    I grew upt loving drawing and digital art.
-    I am proefficient with both 2D and 3D art techniques.
+    I grew up loving drawing and digital art.
+    I am proficient with both 2D and 3D art techniques.
 - domain: Languages
   items:
     - French (Native)
