@@ -13,14 +13,10 @@
     - name: Clement
       surname: Duhart
   abstract: |
-    Automatic lineart colorization is a challenging task for Computer Vision. Contrary to grayscale images, linearts lack
-    semantic information such as shading and texture, making the task even more difficult. Modern approaches train a Generative
-    Adversarial Network (GAN) to generate illustrations from user inputs such as color hints. While such approaches can generate
-    high-quality outputs in real-time, the user only interacts with the pipeline once at the beginning of the process.
-    This paper presents StencilTorch, an interactive and user-guided framework for anime lineart colorization motivated by digital
-    artist workflows. StencilTorch generates illustrations from a given lineart, color hints, and a mask, allowing for iterative
-    workflows where the output of the first pass becomes the input of a second. Our method improves previous work on both
-    objective and subjective evaluations.
+    This paper presents StencilTorch, a new approach to the task of automatic lineart colorization in computer vision.
+    It is an interactive and user-guided framework that generates illustrations from a given lineart, color hints, and
+    a mask, allowing for iterative workflows where the output of the first pass becomes the input of a second. This
+    approach improves upon previous methods in both objective and subjective evaluations.
 
   doi: coming soon
   cover: /images/publications/stenciltorch.webp
@@ -37,14 +33,11 @@
     - name: Clement
       surname: Duhart
   abstract: |
-    The lack of information provided by line arts makes user guided-colorization a challenging task for computer vision.
-    Recent contributions from the deep learning community based on Generative Adversarial Network (GAN) have shown incredible
-    results compared to previous techniques. These methods employ user input color hints as a way to condition the network.
-    The current state of the art has shown the ability to generalize and generate realistic and precise colorization by introducing
-    a custom dataset and a new model with its training pipeline. Nevertheless, their approach relies on randomly sampled pixels
-    as color hints for training. Thus, in this contribution, we introduce a stroke simulation based approach for hint generation,
-    making the model more robust to messy inputs. We also propose a new cleaner dataset, and explore the use of a double generator
-    GAN to improve visual fidelity.
+    This paper presents a new approach for user guided-colorization of line arts in computer vision. The current state
+    of the art uses GANs to generate realistic and precise colorization, but relies on randomly sampled pixels as color
+    hints for training. This approach aims to improve upon this by introducing a stroke simulation based approach for
+    hint generation, making the model more robust to messy inputs. We also propose a new cleaner dataset, and explore
+    the use of a double generator GAN to improve visual fidelity.
   doi: 10.1145/3359998.3369401
   cover: /images/publications/paintstorch.webp
 - title: "Text-Driven Mouth Animation for Human Computer Interaction with Personal Assistant"
@@ -58,11 +51,8 @@
     - name: Clement
       surname: Duhart
   abstract: |
-    Personal assistants are becoming more pervasive in our environments but still do not provide natural interactions.
-    Their lack of realism in terms of expressiveness and their lack of visual feedback can create frustrating experiences
-    and make users lose patience. In this sense, we propose an end-to-end trainable neural architecture for text-driven
-    3D mouth animations. Previous works showed such architectures provide better realism and could open the door for
-    integrated affective Human Computer Interface (HCI). Our study shows that such visual feedback improves users
-    comfort for 78% of the candidates significantly while slightly improving their time perception.
+    This paper proposes a new neural architecture for text-driven 3D mouth animations for personal assistants to improve
+    the realism and naturalness of the interactions. The study shows that such visual feedback improves users comfort for 78%
+    of the candidates significantly while slightly improving their time perception.
   doi: 10.21785/icad2019.032
   cover: /images/publications/tdma.webp
