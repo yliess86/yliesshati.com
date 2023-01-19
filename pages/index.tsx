@@ -19,36 +19,22 @@ import { getSkills, ISkill } from "../components/data/SkillData";
 import Experiences from "../components/sections/Experience";
 import { getExperiences, IExperience } from "../components/data/ExperienceData";
 
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 import Hero from "../components/sections/Hero";
-import Nav from "../components/Nav";
 
 export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
   return (
-    <>
-      <Head>
-        <title>Yliess Hati</title>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="flex justify-center p-4">
-        <div className="flex flex-col gap-8 md:gap-16 md:max-w-3xl xl:max-w-4xl">
-          <Nav />
-          <main className="flex flex-col gap-8 md:gap-16">
-            <Hero />
-            <Experiences experiences={props.experiences} />
-            <Skills skills={props.skills} />
-            <Teachings teachings={props.teachings} />
-            <Publications publications={props.publications} />
-            <Awards awards={props.awards} />
-            <Educations educations={props.educations} />
-          </main>
-          <Footer />
-        </div>
-      </div>
-    </>
+    <Layout>
+      <Hero />
+      <Experiences experiences={props.experiences} />
+      <Skills skills={props.skills} />
+      <Teachings teachings={props.teachings} />
+      <Publications publications={props.publications} />
+      <Awards awards={props.awards} />
+      <Educations educations={props.educations} />
+    </Layout>
   );
-}
+};
 
 export const getStaticProps: GetStaticProps<{
   experiences: IExperience[],
