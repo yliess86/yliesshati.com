@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 bottom-0">
           <div className="flex flex-row gap-4 text-4xl"><ExternalLink href="https://github.com/yliess86"><FaGithub /></ExternalLink><ExternalLink href="https://twitter.com/HatiYliess"><FaTwitter /></ExternalLink><ExternalLink href="https://www.linkedin.com/in/yliess-hati/"><FaLinkedin /></ExternalLink></div>
-          <button className="px-4 py-2 bg-black text-white rounded-sm">Available to Hire</button>
+          <button className="px-4 py-2 bg-black text-white rounded-sm">Available for Hire</button>
         </div>
       </div>
     </header>
