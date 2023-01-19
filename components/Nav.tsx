@@ -17,7 +17,7 @@ export default function Nav() {
         <Link href="/#awards" scroll={false}>Awards</Link>
         <Link href="/#education" scroll={false}>Education</Link>
       </div>
-      <Link href={useRouter().asPath} className="fixed bottom-6 right-6 z-50">
+      <Link href={useRouter().asPath.split("#")[0]} className="fixed bottom-6 right-6 z-50">
         <div className="rounded-full w-10 h-10 bg-black"><FaArrowUp className="text-white m-auto h-10" /></div>
       </Link>
     </nav>
