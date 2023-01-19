@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { InferGetStaticPropsType, GetStaticProps } from "next";
 
 import Educations from "../components/sections/Education";
