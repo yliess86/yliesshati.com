@@ -3,11 +3,12 @@ import { FaArrowUp } from "react-icons/fa"
 
 export default function Nav() {
   return (
-    <nav className="flex flex-col md:flex-row md:align-middle items-center md:items-start md:justify-between gap-4">
+    <nav className="flex flex-col md:flex-row md:align-middle items-center md:items-start md:justify-between gap-4 w-full">
       <Link href="/">
         <h3 className="font-bold">Yliess Hati</h3>
       </Link>
       <div className="flex flex-wrap justify-center md:justify-start md:flex-row gap-4 text-sm">
+        <Link href="/blog" scroll={false}>Blog</Link>
         <Link href="/#experience" scroll={false}>Experience</Link>
         <Link href="/#skills" scroll={false}>Skills</Link>
         <Link href="/#teaching" scroll={false}>Teaching</Link>

@@ -9,4 +9,8 @@
         font-family: 'Poppins', sans-serif;
         scroll-behavior: smooth;
     }
+
+    a:hover, button:hover {
+        opacity: 0.75;
+    }
 }

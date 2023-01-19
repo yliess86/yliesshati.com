@@ -18,12 +18,11 @@ import { getSkills, ISkill } from "../components/data/SkillData";
 import Experiences from "../components/sections/Experience";
 import { getExperiences, IExperience } from "../components/data/ExperienceData";
 
-import Layout from "../components/Layout";
 import Hero from "../components/sections/Hero";
 
-export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
+export default function HomePage (props: InferGetStaticPropsType<GetStaticProps>) {
   return (
-    <Layout>
+    <>
       <Hero />
       <Experiences experiences={props.experiences} />
       <Skills skills={props.skills} />
@@ -31,7 +30,7 @@ export default function Home (props: InferGetStaticPropsType<GetStaticProps>) {
       <Publications publications={props.publications} />
       <Awards awards={props.awards} />
       <Educations educations={props.educations} />
-    </Layout>
+    </>
   );
 };
 
