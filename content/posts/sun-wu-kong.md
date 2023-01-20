@@ -47,3 +47,23 @@ The classification model used at the time was a simple Multi-Layer Perceptron (M
 ### Evaluation
 
 The model was evaluated on a test set, a small portion of the dataset removed from the audio/label pairs. The model achieved an accuracy of 84%.
+
+## Prototype Integration
+
+Integrating the audio classifier into my Unity game prototype was a straight forward task, thanks to the use of my custom C# deep learning engine. The engine was designed to work seamlessly with Unity, allowing for easy integration of the audio classification system into the game. Once the audio inputs were captured and processed, the C# engine feeded the resulting image to the MLP and returned the predicted action label. Then, the action label was mapped to the corresponding action in the game.
+
+The whole process is performed in real-time, allowing the player to control the character's movements with standard input devices such as a gamepad or a keyboard mouse combo and abilities using their voice. It was a nice experience to see the game reacting to my own voice commands, it felt like magic.
+
+## Project Contest
+
+Presenting the prototype of the Sun Wu Kong project at the end of the school year project contest was a thrilling experience. The poster and the demo booth session were a great opportunity to showcase the hard work and dedication put into the project.
+
+The poster was designed to give an overview of the project, its objectives, and the methods used, while the demo booth allowed visitors to experience the game and see the audio classification system in action. A jury, composed of professors, students, and external collaborators from the school, were impressed by the project, and it was a great feeling to know that all the hard work paid off.
+
+The prototype won the first place in the contest, and was well received by the school community. It was a great way to end the school year on a high note and to leave a lasting impression on the school community.
+
+## Limitations
+
+This project had its fair share of limitations, despite its success in the school year project contest. One of the main limitations was the sensitivity of the classification accuracy to noisy environments. The audio classification system was trained on a dataset collected in a relatively quiet environment, and its performance in real-world environments was not optimal. This was certainly due to the lack of data, which resulted in the model being only able to recognize my own voice, making it difficult to scale the system for use with other individuals. One could have certainly used audio data augmentation techniques such as time shifting, pitch shifting, speed alterations, and more.
+
+The project was also limited by my lack of knowledge in the deep learning sota architectures. I was mostly working with simple MLPs at the time. A more appropriate baseline pipeline nowadays would include the transformation of the raw audio into a mel-spectrogram that would then be augmented and noised for generating more data. The classification would be performed by a Convolutional Neural Net, a more specialized architecture that is designed for handling images.
