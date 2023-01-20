@@ -18,6 +18,7 @@ abstract: |
     sampled pixels as color hints for training. This approach aims to improve upon this by introducing a stroke
     simulation based approach for hint generation, making the model more robust to messy inputs. We also propose
     a new cleaner dataset, and explore the use of a double generator GAN to improve visual fidelity.
+public: false
 ---
 
 PaintsTorch: a User-Guided Anime Line Art Colorization Tool with Double Generator Conditional Adversarial Network.

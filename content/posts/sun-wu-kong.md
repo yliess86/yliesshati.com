@@ -14,6 +14,7 @@ abstract: |
     in a video game based on the Chinese legend of Sun Wu Kong. Players can control Sun Wu Kong's magical Cloud and
     Stick using their voice, thanks to the speech classification system. This creates a more immersive and
     intuitive gaming experience.
+public: true
 ---
 
 The project Sun Wu Kong is an innovative research endeavor that aims to investigate the use of audio queries as a means of controlling the magical abilities of the main character in a video game. The game is based on the classic Chinese legend of Sun Wu Kong, King of the Apes, and it allows players to experience the unique gameplay mechanics of controlling Sun Wu Kong's magical Cloud and his magical Stick that can grow or shrink on demand.

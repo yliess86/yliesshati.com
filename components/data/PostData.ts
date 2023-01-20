@@ -9,6 +9,7 @@ interface IPostMetadata {
   type: string;
   tags: string[];
   abstract: string;
+  public: boolean;
 }
 
 export interface IPostInfos {
@@ -31,6 +32,7 @@ function getPostMetadata(file: Buffer): IPostMetadata {
     type: metadata.type,
     tags: metadata.tags,
     abstract: metadata.abstract,
+    public: metadata.public,
   }
 }
 
@@ -46,6 +48,7 @@ function parseDate(date: string): number {
 export function getPosts(last?: number): IPostInfos[] {
   return fs.readdirSync("content/posts")
            .map(path => { return { slug: path.replace(".md", ""), metadata: getPostMetadata(fs.readFileSync(`content/posts/${path}`)) }; })
+           .filter(p => p.metadata.public)
            .sort((a, b) => parseDate(b.metadata.date) - parseDate(a.metadata.date))
            .slice(0, last);
 };

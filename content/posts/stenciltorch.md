@@ -18,6 +18,7 @@ abstract: |
     a given lineart, color hints, and a mask, allowing for iterative workflows where the output of the
     first pass becomes the input of a second. This approach improves upon previous methods in both
     objective and subjective evaluations.
+public: false
 ---
 
 StencilTorch: an Iterative and User-Guided Framework for Anime Lineart Colorization.
