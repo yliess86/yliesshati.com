@@ -39,11 +39,6 @@ function getPostMetadata(file: Buffer): IPostMetadata {
   }
 }
 
-function parseDate(date: string): number {
-  const [day, month, year] = date.split("/");
-  return Date.parse(`${year}-${month}-${day}`);
-}
-
 export function getPosts(last?: number): IPostInfos[] {
   return fs
     .readdirSync("content/posts")
