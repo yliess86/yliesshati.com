@@ -26,6 +26,6 @@ and make users lose patience. In this sense, we propose an end-to-end trainable 
 integrated affective Human Computer Interface (HCI). Our study shows that such visual feedback improves users’ comfort
 for 78% of the candidates significantly while slightly improving their time perception.
 
-*Click on the paper image to read the paper.*
+***Click on the paper image to read the paper.***
 
 [![screenshot](/images/blog/tdma_screenshot.webp)](https://doi.org/10.21785/icad2019.032)
