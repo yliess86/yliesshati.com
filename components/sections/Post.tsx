@@ -1,8 +1,11 @@
-import { FaCalendarDay, FaClock } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
+
 import { marked } from "marked";
+import { FaCalendarDay, FaClock } from "react-icons/fa";
 
 import { IPost } from "../data/PostData";
+import TOCEntry from "../../components/elements/TocEntry"
 
 import Card from "../../components/elements/Card";
 import Badge from "../../components/elements/Badge";
@@ -23,7 +26,13 @@ export default function Post ({ post }: { post: IPost }) {
           </div>
         </div>
       </Card>
-      <article className="prose lg:prose-xl mx-auto" dangerouslySetInnerHTML={{ __html: marked(post.content) }} />
+      <div className="prose lg:prose-xl mx-auto w-full mb-4">
+        <p>
+          <h2>Table of Content</h2>
+          {post.toc.entries.map((entry, index) => <TOCEntry key={index} entry={entry}/>)}
+        </p>
+      </div>
+      <article className="prose lg:prose-xl mx-auto w-full" dangerouslySetInnerHTML={{ __html: marked(post.content) }} />
     </section>
   );
 };

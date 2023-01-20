@@ -1,6 +1,8 @@
 import fs from "fs";
 import matter from "gray-matter";
 
+import { ITOC, getTOC } from "./TocData";
+
 interface IPostMetadata {
   title: string,
   date: string;
@@ -20,6 +22,7 @@ export interface IPostInfos {
 export interface IPost {
   infos: IPostInfos;
   content: string;
+  toc: ITOC;
 };
 
 function getPostMetadata(file: Buffer): IPostMetadata {
@@ -36,27 +39,26 @@ function getPostMetadata(file: Buffer): IPostMetadata {
   }
 }
 
-function getPostContent(file: Buffer): string {
-  return matter(file).content;
-}
-
 function parseDate(date: string): number {
   const [day, month, year] = date.split("/");
   return Date.parse(`${year}-${month}-${day}`);
 }
 
 export function getPosts(last?: number): IPostInfos[] {
-  return fs.readdirSync("content/posts")
-           .map(path => { return { slug: path.replace(".md", ""), metadata: getPostMetadata(fs.readFileSync(`content/posts/${path}`)) }; })
-           .filter(p => p.metadata.public)
-           .sort((a, b) => parseDate(b.metadata.date) - parseDate(a.metadata.date))
-           .slice(0, last);
+  return fs
+    .readdirSync("content/posts")
+    .map(path => { return { slug: path.replace(".md", ""), metadata: getPostMetadata(fs.readFileSync(`content/posts/${path}`)) }; })
+    .filter(p => p.metadata.public)
+    .sort((a, b) => parseDate(b.metadata.date) - parseDate(a.metadata.date))
+    .slice(0, last);
 };
 
 export function getPost(slug: string): IPost {
   const file = fs.readFileSync(`content/posts/${slug}.md`);
+  const content = matter(file).content;
   return {
     infos: { slug: slug, metadata: getPostMetadata(file) },
-    content: getPostContent(file),
+    content: content,
+    toc: getTOC(content), 
   }
 };
