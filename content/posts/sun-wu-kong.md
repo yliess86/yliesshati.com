@@ -6,9 +6,10 @@ min: 5
 type: project
 tags:
     - deep-learning
+    - audio-recognition
     - c-sharp
     - unity-3d
-    - audio-recognition
+    - blender
 abstract: |
     The Sun Wu Kong project explores the use of audio commands to control the magical abilities of the main character
     in a video game based on the Chinese legend of Sun Wu Kong. Players can control Sun Wu Kong's magical Cloud and
