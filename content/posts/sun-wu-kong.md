@@ -17,7 +17,9 @@ abstract: |
 public: true
 ---
 
-The project Sun Wu Kong is an innovative research endeavor that aims to investigate the use of audio queries as a means of controlling the magical abilities of the main character in a video game. The game is based on the classic Chinese legend of Sun Wu Kong, King of the Apes, and it allows players to experience the unique gameplay mechanics of controlling Sun Wu Kong's magical Cloud and his magical Stick that can grow or shrink on demand.
+The project Sun Wu Kong is an innovative research endeavor that aims to investigate the use of audio queries as a means of controlling the magical abilities of the main character in a video game. The game is based on the classic Chinese legend of [Sun Wu Kong](https://en.wikipedia.org/wiki/Monkey_King), King of the Apes, and it allows players to experience the unique gameplay mechanics of controlling Sun Wu Kong's magical Cloud and his magical Stick that can grow or shrink on demand.
+
+## Context
 
 The concept of using audio queries to control the magical abilities of the character is a novel approach to video game interaction. This system utilizes advanced techniques in speech recognition and natural language processing to interpret the player's spoken commands and map them to specific actions in the game. This allows for a more immersive and intuitive gaming experience, as players can use their voice to control the character's movements and abilities.
 
@@ -39,7 +41,7 @@ The audio was captured from the default microphone at a 16kHz sample rate for a 
 
 ### Data Collection
 
-The dataset was composed of audio/label pairs collected via a Unity3D app specifically developed for this purpose. I remember spending Christmas holidays recording audio samples for each of the following actions: `Shrink`, `Grow`, `Reset`, `Nimbus`.
+The dataset was composed of audio/label pairs collected via a [Unity3D](https://unity.com/) app specifically developed for this purpose. I remember spending Christmas holidays recording audio samples for each of the following actions: `Shrink`, `Grow`, `Reset`, `Nimbus`.
 
 ### Modeling
 
@@ -51,7 +53,7 @@ The model was evaluated on a test set, a small portion of the dataset removed fr
 
 ## Prototype Integration
 
-Integrating the audio classifier into my Unity game prototype was a straight forward task, thanks to the use of my custom C# deep learning engine. The engine was designed to work seamlessly with Unity, allowing for easy integration of the audio classification system into the game. Once the audio inputs were captured and processed, the C# engine feeded the resulting image to the MLP and returned the predicted action label. Then, the action label was mapped to the corresponding action in the game.
+Integrating the audio classifier into my [Unity](https://unity.com/) game prototype was a straight forward task, thanks to the use of my custom C# deep learning engine. The engine was designed to work seamlessly with [Unity](https://unity.com/), allowing for easy integration of the audio classification system into the game. Once the audio inputs were captured and processed, the C# engine feeded the resulting image to the MLP and returned the predicted action label. Then, the action label was mapped to the corresponding action in the game.
 
 The whole process is performed in real-time, allowing the player to control the character's movements with standard input devices such as a gamepad or a keyboard mouse combo and abilities using their voice. It was a nice experience to see the game reacting to my own voice commands, it felt like magic.
 
