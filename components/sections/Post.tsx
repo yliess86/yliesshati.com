@@ -23,7 +23,7 @@ export default function Post ({ post }: { post: IPost }) {
           </div>
         </div>
       </Card>
-      <article dangerouslySetInnerHTML={{ __html: marked(post.content) }} />
+      <article className="prose lg:prose-xl mx-auto" dangerouslySetInnerHTML={{ __html: marked(post.content) }} />
     </section>
   );
 };
