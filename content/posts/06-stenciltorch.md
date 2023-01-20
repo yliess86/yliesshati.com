@@ -1,6 +1,6 @@
 ---
 title: "StencilTorch: an Iterative and User-Guided Framework for Anime Lineart Colorization"
-date: "22/01/2023"
+date: "20/01/2023"
 cover: "/images/publications/stenciltorch.webp"
 min: 1
 type: publication

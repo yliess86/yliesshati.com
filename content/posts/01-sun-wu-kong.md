@@ -1,6 +1,6 @@
 ---
 title: "Sun Wu Kong: Audio Queries for Video Game Interaction"
-date: "19/01/2023"
+date: "20/01/2023"
 cover: "/images/blog/sunwukong.webp"
 min: 5
 type: project

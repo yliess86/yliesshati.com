@@ -1,6 +1,6 @@
 ---
 title: "Goblin Slayer: Mobile Game Development with the Unity Game Engine"
-date: "19/01/2023"
+date: "20/01/2023"
 cover: "/images/blog/goblin_slayer.webp"
 min: 2
 type: project
