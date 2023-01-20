@@ -27,7 +27,7 @@ export default function Post ({ post }: { post: IPost }) {
         </div>
       </Card>
       <div className="prose lg:prose-xl mx-auto w-full mb-4">
-        <p>
+        <p className={`${post.toc.entries.length == 0 ? "hidden" : "visible"}`}>
           <h2>Table of Content</h2>
           {post.toc.entries.map((entry, index) => <TOCEntry key={index} entry={entry}/>)}
         </p>
