@@ -2,7 +2,7 @@
 title: "Sun Wu Kong: Audio Queries for Video Game Interaction"
 date: "19/01/2023"
 cover: "/images/blog/sunwukong.webp"
-min: 11
+min: 5
 type: project
 tags:
     - deep-learning
