@@ -1,6 +1,6 @@
 ---
 title: "PaintsTorch: a User-Guided Anime Line Art Colorization Tool with Double Generator Conditional Adversarial Network"
-date: "21/01/2023"
+date: "20/01/2023"
 cover: "/images/publications/paintstorch.webp"
 min: 1
 type: publication
