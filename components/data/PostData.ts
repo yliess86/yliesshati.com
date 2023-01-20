@@ -49,7 +49,7 @@ export function getPosts(last?: number): IPostInfos[] {
     .readdirSync("content/posts")
     .map(path => { return { slug: path.replace(".md", ""), metadata: getPostMetadata(fs.readFileSync(`content/posts/${path}`)) }; })
     .filter(p => p.metadata.public)
-    .sort((a, b) => a.metadata.title > b.metadata.title ? -1 : 1)
+    .sort((a, b) => parseInt(b.slug.split("-")[0]) - parseInt(a.slug.split("-")[0]))
     .slice(0, last);
 };
 
