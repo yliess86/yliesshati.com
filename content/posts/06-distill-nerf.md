@@ -3,7 +3,7 @@ title: "DistillNeRF: Data-Efficient Initialization of Neural radiance Fields usi
 date: "20/01/2023"
 cover: "/images/blog/distill_nerf.webp"
 min: 1
-type: publication
+type: project
 tags:
     - deep-learning
     - python
