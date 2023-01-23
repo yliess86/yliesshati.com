@@ -17,7 +17,7 @@
     - Keras
     - TensorFlowJS
     - TensorFlow Lite
-    - TensorFlow for MicroControllers
+    - TensorFlow Lite for MicroControllers
     - ONNX
     - Cuda
   desc: >
@@ -58,11 +58,11 @@
     - Docker
     - Kubernetes
     - Git
-    - Github Actions (CI/CD)
+    - GitHub Actions (CI/CD)
   desc: >
     I use Linux and Git as my daily driver.
     I have some experience with Docker and Kuernetes although not as proficient with the latter.
-    This website is hosted on Github Pages and is built using CI/CD.
+    This website is hosted on GitHub Pages and is built using CI/CD.
 - domain: Digital Media Art
   items:
     - Adobe Suite (PS, AI, AE)
@@ -74,7 +74,7 @@
     I am proficient with both 2D and 3D art techniques.
 - domain: Electronics
   items:
-    - KiCad
+    - KiCAD
     - Arduino
     - STM32
     - TinyML
