@@ -33,4 +33,4 @@ and subjective evaluations.
 
 ***Click on the paper image to read the paper.***
 
-[![screenshot](/images/blog/stenciltorch_screenshot.webp)](https://doi.org/)
+[![screenshot](/images/blog/stenciltorch_screenshot.webp)](https://doi.org/10.1007/978-3-031-25825-1_1)
